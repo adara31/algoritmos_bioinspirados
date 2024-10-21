@@ -119,7 +119,7 @@ def geneticAlgorithm(n, populationSize, cRate, mRate, generations):
     return bestIndividual, bestEvaluation
 
 # Ejecutar el algoritmo genético
-solution, evaluation = geneticAlgorithm(num_weights, 20, 0.9, 0.1, 100)
+solution, evaluation = geneticAlgorithm(num_weights, 20, 0.9, 0.1, 50)
 
 # Imprimir la mejor solución encontrada
 print(f"Mejor Fitness: {evaluation}")
